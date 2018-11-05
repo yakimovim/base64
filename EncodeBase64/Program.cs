@@ -9,8 +9,8 @@ namespace EncodeBase64
         {
             if (args.Length < 2)
             {
-                Console.WriteLine("Usage: debase64.exe <input base64-encoded file> <output file>");
-                Console.WriteLine("Example: debase64.exe file.base64 file.zip");
+                Console.WriteLine("Usage: enbase64.exe <input file> <output base64-encoded file>");
+                Console.WriteLine("Example: enbase64.exe file.zip file.base64");
                 return;
             }
 
